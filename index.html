@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <form action="POST">
+            <div class="items">
+                <label for="fname">Name</label> <span style="color:red;">*</span><br>
+                <input type="text" id="fname" name="fname"> &nbsp;&nbsp;
+                <input type="text" id="lname" name="lname"><br>
+                <label for="fname" class="start">First</label>
+                <label for="lname" class="end">Last</label>
+            </div>
+            <br>
+            <div class="maill">
+                <label for="fname">Email</label> <span style="color: red;">*</span><br>
+                <input type="email" id="mail" name="mail">
+            </div>
+            <br>
+            <div class="rating">
+                <label for="exp">Your Experience</label><span style="color: red;">*</span><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <br>
+            <span>Overall, how would you rate your experience with us?</span>
+            <br>
+            <h3>How satisfied are you with <span style="color: red;">*</span></h3>
+            <table>
+                <tr>
+                    <th class="first-col"></th>
+                    <th>Very Unsatisfied</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Very Satisfied</th>
+                </tr>
+                <tr>
+                    <td class="first-col">Purchase</td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                </tr>
+                <tr>
+                    <td class="first-col">Service</td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                </tr>
+                <tr>
+                    <td class="first-col">Company Overall</td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                </tr>
+
+            </table>
+            <br>
+            <h3>How satisfied are you with <span style="color: red;">*</span></h3>
+            <table>
+                <tr>
+                    <th class="first-col"></th>
+                    <th>Very Unlikely</th>
+                    <th>Unlikely</th>
+                    <th>Neutral</th>
+                    <th>Likely</th>
+                    <th>Very Likely</th>
+                </tr>
+                <tr>
+                    <td class="first-col">Buy from us again</td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                    <td><input type="radio" value="none" name="rate" /></td>
+                </tr>
+                <tr>
+                    <td class="first-col">Recommend our product to others</td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                    <td><input type="radio" value="none" name="satisfied" /></td>
+                </tr>
+                <tr>
+                    <td class="first-col">Recommend our company to others</td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                    <td><input type="radio" value="none" name="prices" /></td>
+                </tr>
+
+            </table>
+
+            <h3>Additional comments or suggestions</h3>
+            <textarea rows="5"></textarea>
+            <br>
+            <br>
+            <button type="submit" form="form1" value="Submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
